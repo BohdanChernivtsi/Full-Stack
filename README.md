@@ -18,7 +18,16 @@ If you see User end where a User is a person who does work of registration of ne
 
 The project has 2 parts 
 1.	ASP.NET Core with Angular CLI
-2.	SQL server for database parts
+2.	SQL server for database parts (Microsoft SQL Server)
+
+### How To Run Both Projects side by side.
+1. First of all Clone repository to your local machine which have two project.
+2. Open "WebGYM.sln" under "WebGYM" Directory and Run Web API Project (API Run with default port "49749" or "5000" , Later on you can change this) which display all avaialble endpoint for API
+3. To Run Angular Project you have to Open Command Prompt with run as administrator
+4. cd "{FullDirectorypath}\Angular-7-Project-with-ASP.NET-CORE-APIS\gym-project"
+5. Install npm dependency by running "npm install" command
+6. In case if you have changed WebAPI Project running port then you need to change ApiEndPoint url in "environment\environment.ts" other wise skip this step.
+7. Final step run command ng serve or npm start which run on default port "4200"
 
 ### About Platform Used 
 Angular Version Used 7.0.4 and CLI version 7.0.6
@@ -62,4 +71,70 @@ Password :- 123456<br>
 ### Add Member
 <img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/5.jpg?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
 
+### All Scheme
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/all-scheme.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
 
+### Add plan
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/add-plan.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### All plans
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/all-plans.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Edit plan
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/edit-plan.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Add role
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/add-role.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### All roles
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/al-roles.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Edit role
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/edit-role.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Add user
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/add-user.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### All users
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/all-users.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Edit user
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/edit-user.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Change role
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/change-role.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### All assigned roles
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/all-assigned-roles.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Report in Excel
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/report-excel.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Members report
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/report.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Year report
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/year-report.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Year report in excel
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/year-excel.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+### Database screenshots
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_1.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_2.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_3.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_4.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_5.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_6.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_7.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_8.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
+
+<img src="https://github.com/saineshwar/ASPNET-Core-Angular-7-Project/blob/master/Images/Screenshot_9.png?raw=true" alt="Banner" title="Banner" style="max-width:100%;">
